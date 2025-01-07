@@ -1,0 +1,19 @@
+class Test:
+    a = 10
+    def __init__(self):
+        Test.b = 20
+    def m1(self):
+        Test.c = 30
+    def m2(dfg):
+        dfg.s = 40
+        Test.t = 80
+
+    def m4(self):
+        Test.y = 90
+
+t = Test()
+t.m1()
+t.m2()
+t.m4()
+Test.g = 100
+print(Test.__dict__)
