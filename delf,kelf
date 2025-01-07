@@ -1,0 +1,13 @@
+class Student:
+    def __init__(delf,name,rollno,marks):
+        delf.name = name
+        delf.rollno = rollno
+        delf.marks = marks
+
+    def write(kelf):
+        print("hii",kelf.name)
+        print("your roll no",kelf.rollno)
+        print("your marks ",kelf.marks)
+
+s1 = Student("sunny",101,100)
+s1.write()
