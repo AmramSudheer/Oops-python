@@ -1,0 +1,32 @@
+class Student:
+    def __init__(self,name,marks):
+        self.name = name
+        
+        self.marks = marks
+
+    def display(self):
+        print("your name is:",self.name)
+        
+        print("your marks are:",self.marks)
+
+    def grade(self):
+        if self.marks>=80:
+            print("you grade is 1:")
+
+        elif self.marks>=60:
+            print("your grade is 2:")
+
+        elif self.marks>=35:
+            print("ypur grade is 3:")
+
+        else:
+            print("fail")
+
+n = int(input("enter the number of students:"))
+for i in range(n):
+    name = input("enter the student name:")
+    marks =int(input ("enter the student marks:"))
+    s = Student(name,marks)
+    s.display()
+    s.grade()
+    print()
