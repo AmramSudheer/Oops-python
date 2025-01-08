@@ -1,0 +1,14 @@
+class Sudheer:
+    def __init__(self,a,b,c):
+        self.work = a
+        self.porj = b
+        self.dfd = c
+
+    def rule(self):
+        print("wqdqwd",self.work)
+        print("asdasd",self.porj)
+        print("adasda",self.dfd)
+
+
+s1 = Sudheer('qwqq','sssq','sqsqs')
+s1.rule()
