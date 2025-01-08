@@ -1,0 +1,11 @@
+class Test:
+    def __init__(self):
+         self.a = 1200
+         self.b = 3000
+
+    def display(self):
+        print(self.a) ...1200
+        print(self.b)  ...3000
+
+t = Test()
+t.display()
