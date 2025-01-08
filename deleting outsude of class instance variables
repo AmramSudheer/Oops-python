@@ -1,0 +1,12 @@
+class Test:
+    def __init__(self):
+        self.a = 24
+        self.b = 45
+        self.c = 56
+        self.d = 60
+
+    
+
+k1 = Test()
+del k1.a,k1.b
+print(k1.__dict__)
